@@ -1,7 +1,6 @@
 package btvn;
 
 public class Buoc03 {
-    // 1. Lớp SanPham theo yêu cầu slide 3/4
     static class SanPham {
         private String maSP;
         private String tenSP;
@@ -31,7 +30,6 @@ public class Buoc03 {
         }
     }
 
-    // 2. Lớp DonHang theo yêu cầu slide 3/4
     static class DonHang {
         private String tenKhach;
         private SanPham sanPham;
