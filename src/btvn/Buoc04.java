@@ -70,7 +70,6 @@ public class Buoc04 {
     }
 
     public static void main(String[] args) {
-        // Yêu cầu 1: Dùng new tạo 3 đối tượng SanPham theo kịch bản ở slide 2/4
         SanPham banPhim = new SanPham("SP01", "Bàn phím cơ", 450000, 20);
         SanPham chuot = new SanPham("SP02", "Chuột không dây", 200000, 50);
         SanPham taiNghe = new SanPham("SP03", "Tai nghe");
