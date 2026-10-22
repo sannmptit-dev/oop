@@ -47,7 +47,7 @@ public class Buoc04 {
             this.tenKhach = tenKhach;
             this.sanPham = sanPham;
             if (soLuong < 1) {
-                this.soLuong = 1; // Tự động sửa số lượng < 1 thành 1
+                this.soLuong = 1;
             } else {
                 this.soLuong = soLuong;
             }
@@ -85,7 +85,7 @@ public class Buoc04 {
 
         DonHang don1 = new DonHang("An", banPhim, 2);
         DonHang don2 = new DonHang("Bình", chuot, 5);
-        DonHang don3 = new DonHang("Chi", taiNghe, 0); // Số lượng 0 -> tự động sửa thành 1
+        DonHang don3 = new DonHang("Chi", taiNghe, 0);
 
         System.out.println("===== DANH SÁCH ĐƠN HÀNG =====");
         System.out.printf("%-6s %-18s %-4s %s\n", "Khách", "Sản phẩm", "SL", "Thành tiền");
